@@ -50,14 +50,8 @@ namespace ProductTrackingSystem
             {
                 for (int j = 0; j < dataGridView1.Columns.Count; j++)
                 {
-                    try
-                    {
-                        Microsoft.Office.Interop.Excel.Range myRange = (Microsoft.Office.Interop.Excel.Range)sheet1.Cells[startRow + i, startCol + j];
-                        myRange.Value2 = dataGridView1[j, i].Value == null ? "" : dataGridView1[j, i].Value;
-                    }
-                    catch
-                    {
-                    }
+                    Microsoft.Office.Interop.Excel.Range myRange = (Microsoft.Office.Interop.Excel.Range)sheet1.Cells[startRow + i, startCol + j];
+                    myRange.Value2 = dataGridView1[j, i].Value == null ? "" : dataGridView1[j, i].Value;
                 }
             }
         }

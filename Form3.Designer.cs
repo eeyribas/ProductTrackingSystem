@@ -46,20 +46,20 @@ namespace ProductTrackingSystem
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(164, 78);
+            this.textBox8.Location = new System.Drawing.Point(164, 69);
             this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.MaxLength = 3;
             this.textBox8.Name = "textBox8";
@@ -68,7 +68,7 @@ namespace ProductTrackingSystem
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(89, 151);
+            this.textBox7.Location = new System.Drawing.Point(89, 119);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(212, 22);
@@ -77,7 +77,7 @@ namespace ProductTrackingSystem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 154);
+            this.label3.Location = new System.Drawing.Point(33, 122);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 17);
@@ -86,7 +86,7 @@ namespace ProductTrackingSystem
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(89, 351);
+            this.button1.Location = new System.Drawing.Point(89, 304);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 43);
@@ -97,7 +97,7 @@ namespace ProductTrackingSystem
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(36, 254);
+            this.textBox6.Location = new System.Drawing.Point(36, 207);
             this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -107,7 +107,7 @@ namespace ProductTrackingSystem
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 209);
+            this.label2.Location = new System.Drawing.Point(99, 177);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(160, 17);
@@ -116,7 +116,7 @@ namespace ProductTrackingSystem
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(317, 78);
+            this.textBox5.Location = new System.Drawing.Point(317, 69);
             this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.MaxLength = 1;
             this.textBox5.Name = "textBox5";
@@ -125,7 +125,7 @@ namespace ProductTrackingSystem
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1011, 433);
+            this.button3.Location = new System.Drawing.Point(963, 406);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 52);
@@ -136,7 +136,7 @@ namespace ProductTrackingSystem
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1162, 433);
+            this.button2.Location = new System.Drawing.Point(1106, 406);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(204, 52);
@@ -147,7 +147,7 @@ namespace ProductTrackingSystem
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(224, 78);
+            this.textBox4.Location = new System.Drawing.Point(224, 69);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.MaxLength = 5;
             this.textBox4.Name = "textBox4";
@@ -156,7 +156,7 @@ namespace ProductTrackingSystem
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(117, 78);
+            this.textBox3.Location = new System.Drawing.Point(117, 69);
             this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.MaxLength = 1;
             this.textBox3.Name = "textBox3";
@@ -165,7 +165,7 @@ namespace ProductTrackingSystem
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(68, 78);
+            this.textBox2.Location = new System.Drawing.Point(68, 69);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.MaxLength = 2;
             this.textBox2.Name = "textBox2";
@@ -174,7 +174,7 @@ namespace ProductTrackingSystem
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(24, 78);
+            this.textBox1.Location = new System.Drawing.Point(24, 69);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.MaxLength = 1;
             this.textBox1.Name = "textBox1";
@@ -184,10 +184,10 @@ namespace ProductTrackingSystem
             // button5
             // 
             this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(237, 483);
+            this.button5.Location = new System.Drawing.Point(206, 403);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(183, 60);
+            this.button5.Size = new System.Drawing.Size(132, 52);
             this.button5.TabIndex = 34;
             this.button5.Text = "Exit";
             this.button5.UseVisualStyleBackColor = true;
@@ -206,10 +206,10 @@ namespace ProductTrackingSystem
             // button4
             // 
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(13, 483);
+            this.button4.Location = new System.Drawing.Point(37, 403);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(183, 60);
+            this.button4.Size = new System.Drawing.Size(130, 52);
             this.button4.TabIndex = 33;
             this.button4.Text = "Home Page";
             this.button4.UseVisualStyleBackColor = true;
@@ -225,35 +225,12 @@ namespace ProductTrackingSystem
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(465, 30);
+            this.dataGridView1.Location = new System.Drawing.Point(409, 13);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(901, 377);
             this.dataGridView1.TabIndex = 30;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(13, 13);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(379, 431);
-            this.groupBox1.TabIndex = 29;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Registration Form";
             // 
             // Column1
             // 
@@ -297,11 +274,34 @@ namespace ProductTrackingSystem
             this.Column6.Name = "Column6";
             this.Column6.Width = 125;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(13, 13);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(379, 370);
+            this.groupBox1.TabIndex = 29;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Registration Form";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1471, 598);
+            this.ClientSize = new System.Drawing.Size(1324, 475);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button5);

@@ -1314,7 +1314,7 @@ namespace ProductTrackingSystem
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(1249, 600);
+            this.label31.Location = new System.Drawing.Point(1261, 582);
             this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(184, 17);
@@ -1325,7 +1325,7 @@ namespace ProductTrackingSystem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1475, 667);
+            this.ClientSize = new System.Drawing.Size(1457, 640);
             this.Controls.Add(this.groupBox21);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.button7);
